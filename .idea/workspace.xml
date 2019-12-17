@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f18c6dd0-d723-4947-b34b-56d58fa5dd46" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/guns/guns-base-support/target/" />
+    <ignored path="$PROJECT_DIR$/guns/target/" />
+    <ignored path="$PROJECT_DIR$/guns/guns-base-support/guns-base-auth/target/" />
+    <ignored path="$PROJECT_DIR$/guns/guns-base-support/guns-sys/target/" />
+    <ignored path="$PROJECT_DIR$/guns/guns-main/target/" />
+    <ignored path="$PROJECT_DIR$/guns/guns-base-support/guns-base/target/" />
+    <ignored path="$PROJECT_DIR$/myProject/target/" />
+    <ignored path="$PROJECT_DIR$/myProject/myPlgin/target/" />
+    <ignored path="$PROJECT_DIR$/myPlugin/target/" />
+    <ignored path="$PROJECT_DIR$/nettongmodule/target/" />
+    <ignored path="$PROJECT_DIR$/module/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mojo</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/guns/guns-main/src/main/resources/application-local.yml" />
+        <option value="$PROJECT_DIR$/guns/guns-base-support/guns-base/target/site/findbugs.xml" />
+        <option value="$PROJECT_DIR$/guns/guns-base-support/guns-base/src/main/java/cn/stylefeng/guns/base/oshi/util/IpInfoUtils.java" />
+        <option value="$PROJECT_DIR$/guns/pom.xml" />
+        <option value="$PROJECT_DIR$/myPlugin/src/main/java/myMojo.java" />
+        <option value="$PROJECT_DIR$/myPlugin/src/main/java/net/tong/myPlugin.java" />
+        <option value="$PROJECT_DIR$/guns/guns-base-support/guns-base/pom.xml" />
+        <option value="$PROJECT_DIR$/myProject/src/main/java/net/tong/myClass.java" />
+        <option value="$PROJECT_DIR$/myProject/pom.xml" />
+        <option value="$PROJECT_DIR$/myPlugin/pom.xml" />
+        <option value="$PROJECT_DIR$/nettongmodule/pom.xml" />
+        <option value="$PROJECT_DIR$/module/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="E:\repository\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="myPlugin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="myPlugin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="myPlugin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="net.tong Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="net.tong Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="net.tong Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Dfile.encoding=UTF-8" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mySpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="E:/android/android-sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15715402" />
+    <property name="project.structure.side.proportion" value="0.24384525" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.guns-base [deploy]">
+    <configuration name="guns-base [deploy]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="deploy" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/guns/guns-base-support/guns-base" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="GunsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="guns-main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.stylefeng.guns.GunsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.guns-base [deploy]" />
+      <item itemvalue="Spring Boot.GunsApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\tongchenghao\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f18c6dd0-d723-4947-b34b-56d58fa5dd46" name="Default Changelist" comment="" />
+      <created>1575979563593</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575979563593</updated>
+      <workItem from="1575979565865" duration="546000" />
+      <workItem from="1575988484473" duration="930000" />
+      <workItem from="1576156264984" duration="2353000" />
+      <workItem from="1576239861864" duration="5337000" />
+      <workItem from="1576299753120" duration="3918000" />
+      <workItem from="1576303803663" duration="3861000" />
+      <workItem from="1576322867625" duration="1119000" />
+      <workItem from="1576324059974" duration="8155000" />
+      <workItem from="1576467195740" duration="18000" />
+      <workItem from="1576501681217" duration="599000" />
+      <workItem from="1576588955035" duration="1749000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="28585000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22021419" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3270073" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3270073" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.23962517" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="CDI" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar!/org/springframework/boot/autoconfigure/task/TaskExecutionAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/_docs/guns_mysql.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-main/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-main/src/main/resources/application-local.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-base-support/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-main/src/main/java/cn/stylefeng/guns/config/datasource/PluginsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-main/src/main/java/cn/stylefeng/guns/GunsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="32" column="84" selection-start-line="32" selection-start-column="84" selection-end-line="32" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/cn.stylefeng:guns-base:1.0.0">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>cn.stylefeng:guns-base:1.0.0</OriginalElement>
+          <nodes>
+            <node x="" y="">cn.stylefeng:guns-base:1.0.0</node>
+            <node x="" y="">cn.stylefeng.roses:kernel-core:jar:1.2.6</node>
+            <node x="" y="">cn.stylefeng.roses:kernel-core:jar:1.2.6/cn.stylefeng.roses:kernel-model:jar:1.2.6</node>
+            <node x="" y="">cn.stylefeng.roses:kernel-core:jar:1.2.6/cn.stylefeng.roses:kernel-model:jar:1.2.6/org.projectlombok:lombok:jar:1.18.8</node>
+            <node x="" y="">cn.stylefeng.roses:kernel-core:jar:1.2.6/cn.hutool:hutool-core:jar:4.6.1</node>
+            <node x="" y="">cn.stylefeng.roses:kernel-core:jar:1.2.6/com.baomidou:mybatis-plus-boot-starter:jar:3.1.0</node>
+            <node x="" y="">cn.stylefeng.roses:kernel-core:jar:1.2.6/com.baomidou:mybatis-plus-boot-starter:jar:3.1.0/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.6.RELEASE</node>
+            <node x="" y="">cn.stylefeng.roses:kernel-core:jar:1.2.6/com.baomidou:mybatis-plus:jar:3.1.0</node>
+            <node x="" y="">cn.stylefeng.roses:kernel-core:jar:1.2.6/com.baomidou:mybatis-plus:jar:3.1.0/com.baomidou:mybatis-plus-extension:jar:3.1.0</node>
+            <node x="" y="">cn.stylefeng.roses:kernel-core:jar:1.2.6/com.baomidou:mybatis-plus:jar:3.1.0/com.baomidou:mybatis-plus-extension:jar:3.1.0/com.baomidou:mybatis-plus-core:jar:3.1.0</node>
+            <node x="" y="">cn.stylefeng.roses:kernel-core:jar:1.2.6/com.baomidou:mybatis-plus:jar:3.1.0/com.baomidou:mybatis-plus-extension:jar:3.1.0/com.baomidou:mybatis-plus-core:jar:3.1.0/com.baomidou:mybatis-plus-annotation:jar:3.1.0</node>
+            <node x="" y="">cn.stylefeng.roses:kernel-core:jar:1.2.6/com.baomidou:mybatis-plus:jar:3.1.0/com.baomidou:mybatis-plus-extension:jar:3.1.0/com.baomidou:mybatis-plus-core:jar:3.1.0/org.mybatis:mybatis:jar:3.5.0</node>
+            <node x="" y="">cn.stylefeng.roses:kernel-core:jar:1.2.6/com.baomidou:mybatis-plus:jar:3.1.0/com.baomidou:mybatis-plus-extension:jar:3.1.0/com.baomidou:mybatis-plus-core:jar:3.1.0/com.github.jsqlparser:jsqlparser:jar:1.4</node>
+            <node x="" y="">cn.stylefeng.roses:kernel-core:jar:1.2.6/com.baomidou:mybatis-plus:jar:3.1.0/com.baomidou:mybatis-plus-extension:jar:3.1.0/org.mybatis:mybatis-spring:jar:2.0.0</node>
+            <node x="" y="">cn.stylefeng.roses:kernel-core:jar:1.2.6/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.6.RELEASE</node>
+            <node x="" y="">cn.stylefeng.roses:kernel-core:jar:1.2.6/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.6.RELEASE/com.zaxxer:HikariCP:jar:3.2.0</node>
+            <node x="" y="">cn.stylefeng.roses:kernel-core:jar:1.2.6/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.6.RELEASE/org.springframework:spring-jdbc:jar:5.1.8.RELEASE</node>
+            <node x="" y="">cn.stylefeng.roses:kernel-core:jar:1.2.6/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.6.RELEASE/org.springframework:spring-jdbc:jar:5.1.8.RELEASE/org.springframework:spring-tx:jar:5.1.8.RELEASE</node>
+            <node x="" y="">cn.stylefeng.roses:kernel-core:jar:1.2.6/com.alibaba:druid:jar:1.1.19</node>
+            <node x="" y="">cn.stylefeng.roses:kernel-core:jar:1.2.6/com.alibaba:fastjson:jar:1.2.58</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:8.0.11</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:8.0.11/com.google.protobuf:protobuf-java:jar:2.6.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-aop:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-aop:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-aop:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-aop:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-aop:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-aop:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-aop:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-aop:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2/org.apache.logging.log4j:log4j-api:jar:2.11.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-aop:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.26</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-aop:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-aop:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.yaml:snakeyaml:jar:1.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-aop:jar:2.1.6.RELEASE/org.springframework:spring-aop:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-aop:jar:2.1.6.RELEASE/org.springframework:spring-aop:jar:5.1.8.RELEASE/org.springframework:spring-beans:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-aop:jar:2.1.6.RELEASE/org.aspectj:aspectjweaver:jar:1.9.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.6.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.6.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.6.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.6.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.21</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.6.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.21</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.17.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.17.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.17.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.17.Final/com.fasterxml:classmate:jar:1.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework:spring-web:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework:spring-webmvc:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework:spring-webmvc:jar:5.1.8.RELEASE/org.springframework:spring-context:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework:spring-webmvc:jar:5.1.8.RELEASE/org.springframework:spring-expression:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-cache:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-cache:jar:2.1.6.RELEASE/org.springframework:spring-context-support:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-validation:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-validation:jar:2.1.6.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.21</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/junit:junit:jar:4.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.assertj:assertj-core:jar:3.11.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.mockito:mockito-core:jar:2.23.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy:jar:1.9.13</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy-agent:jar:1.9.13</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.mockito:mockito-core:jar:2.23.4/org.objenesis:objenesis:jar:2.6</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework:spring-core:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework:spring-core:jar:5.1.8.RELEASE/org.springframework:spring-jcl:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework:spring-test:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.xmlunit:xmlunit-core:jar:2.6.2</node>
+            <node x="" y="">com.ibeetl:beetl:jar:2.9.3</node>
+            <node x="" y="">com.ibeetl:beetl:jar:2.9.3/org.antlr:antlr4-runtime:jar:4.2</node>
+            <node x="" y="">com.ibeetl:beetl:jar:2.9.3/org.antlr:antlr4-runtime:jar:4.2/org.abego.treelayout:org.abego.treelayout.core:jar:1.0.1</node>
+            <node x="" y="">com.ibeetl:beetl:jar:2.9.3/org.antlr:antlr4-runtime:jar:4.2/org.antlr:antlr4-annotations:jar:4.2</node>
+            <node x="" y="">io.jsonwebtoken:jjwt:jar:0.9.0</node>
+            <node x="" y="">io.jsonwebtoken:jjwt:jar:0.9.0/com.fasterxml.jackson.core:jackson-databind:jar:2.9.9</node>
+            <node x="" y="">io.jsonwebtoken:jjwt:jar:0.9.0/com.fasterxml.jackson.core:jackson-databind:jar:2.9.9/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="" y="">io.jsonwebtoken:jjwt:jar:0.9.0/com.fasterxml.jackson.core:jackson-databind:jar:2.9.9/com.fasterxml.jackson.core:jackson-core:jar:2.9.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-configuration-processor:jar:2.1.6.RELEASE</node>
+            <node x="" y="">cn.afterturn:easypoi-web:jar:4.0.0</node>
+            <node x="" y="">cn.afterturn:easypoi-web:jar:4.0.0/cn.afterturn:easypoi-base:jar:4.0.0</node>
+            <node x="" y="">cn.afterturn:easypoi-web:jar:4.0.0/cn.afterturn:easypoi-base:jar:4.0.0/org.apache.poi:poi:jar:4.0.0</node>
+            <node x="" y="">cn.afterturn:easypoi-web:jar:4.0.0/cn.afterturn:easypoi-base:jar:4.0.0/org.apache.poi:poi:jar:4.0.0/commons-codec:commons-codec:jar:1.11</node>
+            <node x="" y="">cn.afterturn:easypoi-web:jar:4.0.0/cn.afterturn:easypoi-base:jar:4.0.0/org.apache.poi:poi:jar:4.0.0/org.apache.commons:commons-collections4:jar:4.2</node>
+            <node x="" y="">cn.afterturn:easypoi-web:jar:4.0.0/cn.afterturn:easypoi-base:jar:4.0.0/org.apache.poi:poi-ooxml:jar:4.0.0</node>
+            <node x="" y="">cn.afterturn:easypoi-web:jar:4.0.0/cn.afterturn:easypoi-base:jar:4.0.0/org.apache.poi:poi-ooxml:jar:4.0.0/org.apache.commons:commons-compress:jar:1.18</node>
+            <node x="" y="">cn.afterturn:easypoi-web:jar:4.0.0/cn.afterturn:easypoi-base:jar:4.0.0/org.apache.poi:poi-ooxml:jar:4.0.0/com.github.virtuald:curvesapi:jar:1.04</node>
+            <node x="" y="">cn.afterturn:easypoi-web:jar:4.0.0/cn.afterturn:easypoi-base:jar:4.0.0/org.apache.poi:poi-ooxml-schemas:jar:4.0.0</node>
+            <node x="" y="">cn.afterturn:easypoi-web:jar:4.0.0/cn.afterturn:easypoi-base:jar:4.0.0/org.apache.poi:poi-ooxml-schemas:jar:4.0.0/org.apache.xmlbeans:xmlbeans:jar:3.0.1</node>
+            <node x="" y="">cn.afterturn:easypoi-web:jar:4.0.0/cn.afterturn:easypoi-base:jar:4.0.0/com.google.guava:guava:jar:16.0.1</node>
+            <node x="" y="">cn.afterturn:easypoi-web:jar:4.0.0/cn.afterturn:easypoi-base:jar:4.0.0/org.apache.commons:commons-lang3:jar:3.8.1</node>
+            <node x="" y="">cn.afterturn:easypoi-web:jar:4.0.0/cn.afterturn:easypoi-base:jar:4.0.0/ognl:ognl:jar:3.2.6</node>
+            <node x="" y="">cn.afterturn:easypoi-web:jar:4.0.0/cn.afterturn:easypoi-base:jar:4.0.0/ognl:ognl:jar:3.2.6/org.javassist:javassist:jar:3.20.0-GA</node>
+            <node x="" y="">cn.afterturn:easypoi-web:jar:4.0.0/cn.afterturn:easypoi-base:jar:4.0.0/cn.afterturn:easypoi-annotation:jar:4.0.0</node>
+            <node x="" y="">com.github.penggle:kaptcha:jar:2.3.2</node>
+            <node x="" y="">com.github.penggle:kaptcha:jar:2.3.2/javax.servlet:javax.servlet-api:jar:4.0.1</node>
+            <node x="" y="">com.github.penggle:kaptcha:jar:2.3.2/com.jhlabs:filters:jar:2.0.235-1</node>
+            <node x="" y="">com.github.oshi:oshi-core:jar:3.9.1</node>
+            <node x="" y="">com.github.oshi:oshi-core:jar:3.9.1/net.java.dev.jna:jna-platform:jar:4.5.2</node>
+            <node x="" y="">com.github.oshi:oshi-core:jar:3.9.1/net.java.dev.jna:jna-platform:jar:4.5.2/net.java.dev.jna:jna:jar:4.5.2</node>
+            <node x="" y="">com.github.oshi:oshi-core:jar:3.9.1/org.slf4j:slf4j-api:jar:1.7.26</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="232.0" y="1571.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-base-support/guns-base/src/main/java/cn/stylefeng/guns/base/oshi/util/IpInfoUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-base-support/guns-base/target/site/findbugs.xml" />
+    <entry file="file://$PROJECT_DIR$/guns/guns-main/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/jdk1.8.0_121/src.zip!/org/w3c/dom/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/xml/BeanDefinitionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-base-support/guns-base-auth/src/main/java/cn/stylefeng/guns/base/auth/aop/PermissionAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-base-support/guns-base-auth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/myPlgin/pom.xml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-plugin-api/3.5.0/maven-plugin-api-3.5.0.jar!/org/apache/maven/plugin/AbstractMojo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myPlugin/src/main/java/myMojo.java" />
+    <entry file="file://$PROJECT_DIR$/myProject/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-base-support/guns-base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="204" column="21" selection-start-line="191" selection-start-column="12" selection-end-line="204" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myPlugin/src/main/java/net/tong/myPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/tong/myPlugin/1.0.0/myPlugin-1.0.0.jar!/net/tong/myPlugin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298">
+          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/src/main/java/net/tong/myClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myPlugin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nettongmodule/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-946">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>myPlugin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24384525" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
