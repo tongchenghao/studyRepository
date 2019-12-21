@@ -53,9 +53,9 @@
         <artifactId>myPlugin</artifactId>
         <version>1.0.0</version>
         <configuration>
-          <!--´«µÝString²ÎÊý-->
+          <!--ä¼ é€’Stringå‚æ•°-->
           <msg>111</msg>
-          <!--´«µÝlist²ÎÊý-->
+          <!--ä¼ é€’listå‚æ•°-->
           <options>
             <option>1</option>
             <option>2</option>
@@ -63,14 +63,14 @@
             <option>4</option>
             <option>5</option>
           </options>
-          <!--´«µÝmap²ÎÊý-->
+          <!--ä¼ é€’mapå‚æ•°-->
           <mapOptions>
             <a>1</a>
             <b>2</b>
             <c>3</c>
             <d>4</d>
           </mapOptions>
-          <!--´«µÝset²ÎÊý-->
+          <!--ä¼ é€’setå‚æ•°-->
           <setOptions>
             <value>9</value>
             <value>8</value>
@@ -78,7 +78,7 @@
             <value>6</value>
           </setOptions>
         </configuration>
-        <!--²å¼þÐèÒª¹ÒÔÚµ½phaseÉÏ²Å»áÔËÐÐÖ¸¶¨µÄgoals-->
+        <!--æ’ä»¶éœ€è¦æŒ‚åœ¨åˆ°phaseä¸Šæ‰ä¼šè¿è¡ŒæŒ‡å®šçš„goals-->
         <executions>
           <execution>
             <phase>package</phase>
@@ -90,7 +90,7 @@
       </plugin>
     </plugins>
   </build>
-  <!--Ë½·þ-->
+  <!--ç§æœ-->
   <distributionManagement>
     <repository>
       <id>nexus-releases</id>
@@ -103,7 +103,4 @@
       <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
-  <modules>
-    <module>module</module>
-  </modules>
 </project>
