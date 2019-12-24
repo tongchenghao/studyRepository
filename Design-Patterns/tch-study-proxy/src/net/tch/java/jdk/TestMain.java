@@ -4,7 +4,11 @@ import jdk.intermediary.Aigongzuo;
 import jdk.candidates.Person;
 import jdk.candidates.Tongchenghao;
 import jdk.job.Job;
+import sun.misc.ProxyGenerator;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -54,6 +58,21 @@ public class TestMain {
 
         Person person = (Person) aigongzuo.getInstance(tongchenghao);
         person.findWork(null);
+
+        int workYears = person.getWorkYears();
+        System.out.println("工作年限是："+workYears);
+
+        /*//将代理动态生成的class输出到文件夹下
+        byte[] $Proxy0s = ProxyGenerator.generateProxyClass("$Proxy0", new Class[]{Person.class});
+        try {
+            FileOutputStream os = new FileOutputStream("$Proxy0.class");
+            os.write($Proxy0s);
+            os.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }*/
 
 
     }

@@ -98,15 +98,28 @@ public class Aigongzuo implements IntermediaryCompany, InvocationHandler {
         return proxy;
     }
 
+    /**
+     * 代理对象之后，调用对象的任何方法其实都会执行这个代理对象的invoke方法
+     * @param proxy
+     * @param method
+     * @param args
+     * @return
+     * @throws Throwable
+     */
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         System.out.println("开始帮助"+target.getName()+"寻找工作");
         List<Job> jobs = findJobs();
         System.out.println("工作已经筛选好了，可以把工作交给"+target.getName()+"挑选想要去面试的工作了");
         System.out.println("--------------------------------");
-        Job gotoJob = target.findWork(jobs);
+        Object result;
+        if(method.getName().equals("findWork")){
+            result = method.invoke(this.target,jobs);
+        }else{
+            result = method.invoke(this.target,args);
+        }
         System.out.println("--------------------------------");
         System.out.println(target.getName()+"已经挑选了工作去面试了，作为代理我的工作告一段落了");
-        return null;
+        return result;
     }
 }
