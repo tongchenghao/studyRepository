@@ -3,14 +3,21 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/guns/guns-architecture.iml" filepath="$PROJECT_DIR$/guns/guns-architecture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guns/guns-architecture.iml" filepath="$PROJECT_DIR$/guns/guns-architecture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guns/guns-base-support/guns-base/guns-base.iml" filepath="$PROJECT_DIR$/guns/guns-base-support/guns-base/guns-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/guns/guns-base-support/guns-base/guns-base.iml" filepath="$PROJECT_DIR$/guns/guns-base-support/guns-base/guns-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/guns/guns-base-support/guns-base-auth/guns-base-auth.iml" filepath="$PROJECT_DIR$/guns/guns-base-support/guns-base-auth/guns-base-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guns/guns-base-support/guns-base-auth/guns-base-auth.iml" filepath="$PROJECT_DIR$/guns/guns-base-support/guns-base-auth/guns-base-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guns/guns-base-support/guns-base-support.iml" filepath="$PROJECT_DIR$/guns/guns-base-support/guns-base-support.iml" />
       <module fileurl="file://$PROJECT_DIR$/guns/guns-base-support/guns-base-support.iml" filepath="$PROJECT_DIR$/guns/guns-base-support/guns-base-support.iml" />
       <module fileurl="file://$PROJECT_DIR$/guns/guns-main/guns-main.iml" filepath="$PROJECT_DIR$/guns/guns-main/guns-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guns/guns-main/guns-main.iml" filepath="$PROJECT_DIR$/guns/guns-main/guns-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guns/guns-base-support/guns-sys/guns-sys.iml" filepath="$PROJECT_DIR$/guns/guns-base-support/guns-sys/guns-sys.iml" />
       <module fileurl="file://$PROJECT_DIR$/guns/guns-base-support/guns-sys/guns-sys.iml" filepath="$PROJECT_DIR$/guns/guns-base-support/guns-sys/guns-sys.iml" />
       <module fileurl="file://$PROJECT_DIR$/module/module.iml" filepath="$PROJECT_DIR$/module/module.iml" />
       <module fileurl="file://$PROJECT_DIR$/myPlugin/myPlugin.iml" filepath="$PROJECT_DIR$/myPlugin/myPlugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/myProject/myProject.iml" filepath="$PROJECT_DIR$/myProject/myProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nettongmodule/net.tong.module.iml" filepath="$PROJECT_DIR$/nettongmodule/net.tong.module.iml" />
     </modules>
   </component>
 </project>
