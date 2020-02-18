@@ -1,5 +1,7 @@
 package net.tch.java.RPC;
 
+import net.tch.java.RPC.myRpcByZookeeper.anno.MyRpcAnnotation;
+
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
@@ -7,9 +9,11 @@ import java.rmi.server.UnicastRemoteObject;
  * @description:服务Demo，该服务将被发布，给与其他进程调用，来测试各个rpc框架的功能
  *      1.使用RMI框架
  *           使用RMI框架服务实现必须继承UnicastRemoteObject类
+ *      2.MyRpcAnnotation的注解是用于自己实现的带zookeeper注册中心的rpc框架中获取服务对应接口地址的
  * @auth tongchenghao
  * @date 2020/2/12
  */
+@MyRpcAnnotation(IServiceDemo.class)
 public class ServiceDemo extends UnicastRemoteObject implements IServiceDemo{
 
     public ServiceDemo() throws RemoteException {
