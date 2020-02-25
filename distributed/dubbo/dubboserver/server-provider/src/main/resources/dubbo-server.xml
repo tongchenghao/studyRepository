@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://code.alibabatech.com/schema/dubbo
+       http://code.alibabatech.com/schema/dubbo/dubbo.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd">
+
+    <!-- 自动包扫描 -->
+    <context:component-scan base-package="net.tch.*"/>
+
+    <!-- 开启注解模式 -->
+    <mvc:annotation-driven/>
+
+    <!-- 提供方信息 -->
+    <dubbo:application name="dubbo-server" owner="tch"/>
+
+    <!-- 配置注册中心 eg:N/A标识没有注册中心-->
+    <dubbo:registry address="zookeeper://192.168.137.5:2181"/>
+
+    <!-- 配置协议及端口，默认是dubbo协议 -->
+    <dubbo:protocol name="dubbo" port="20880"/>
+
+    <!-- dubbo创建服务的接口地址 -->
+    <dubbo:service interface="net.tch.dubbo.Holle"
+        ref="holleImpl"
+    />
+
+
+</beans>
