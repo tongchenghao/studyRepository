@@ -9,6 +9,9 @@ import java.io.*;
  */
 public class Monkey implements Cloneable,Serializable{
 
+    /**
+    测试
+     */
     int height;
 
     int weight;
